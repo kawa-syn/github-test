@@ -1,0 +1,60 @@
+@charset "UTF-8";
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+body {
+  margin: 0;
+  background: #fff;
+  font-size: 2.5rem;
+  line-height: 1.4;
+  color: #333;
+}
+h1 {
+	font-size: 28px}
+h2 {
+	padding-bottom: 0.5em;
+	border-bottom: 1px solid #ccc;
+	font-size: 24px;
+	}
+/* ------------------------------------------------
+  フォント指定
+------------------------------------------------ */
+.icon {
+	letter-spacing: 0.2em;
+}
+.text-1 {
+	font-family: Meiryo;
+}
+.text-2 {
+	font-family: YuGothic, '游ゴシック'
+}
+.text-3 {
+	font-family: YuMincho, '游明朝';
+}
+.text-4 {
+	font-family: 'Noto Sans Japanese';
+}
+.text-5 {
+	font-family: "ＭＳ Ｐゴシック" , "MS PGothic";
+}
+/* ------------------------------------------------
+  アンチエイリアス
+------------------------------------------------ */
+.antialiased {
+	transform: rotate(0.028deg);
+    -o-transform: rotate(0.028deg);
+    -ms-transform: rotate(0.028deg);
+    -moz-transform: rotate(0.028deg);
+    -webkit-transform: rotate(0.028deg);
+	text-shadow: 0 0 0.1px rgba(51,51,51,0.5);
+}
+.grayscale {
+    -moz-osx-font-smoothing: grayscale; //なめらか
+}
+.unset {
+    -moz-osx-font-smoothing: unset; //デフォルトに戻す
+}
+.inherit {
+    -moz-osx-font-smoothing: inherit; //親要素から継承
+}
+.auto {
+    -moz-osx-font-smoothing: auto; //システムのデフォルトに応じる
+}
